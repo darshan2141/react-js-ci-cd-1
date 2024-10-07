@@ -35,6 +35,6 @@ jobs:
         uses: jakejarvis/s3-sync-action@master
         with:
           args: --acl public-read --follow-symlinks --delete
-          source_dir: build
+          source_dir: build  # Corrected from 'SOURCE_DIR'
         env:
           AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}

@@ -23,7 +23,10 @@ jobs:
 
       - name: Build the app
         run: npm run build
-
+        env:
+          REACT_APP_TEST: ${{ secrets.REACT_APP_TEST }}
+          REACT_APP_TEST2: ${{ secrets.REACT_APP_TEST2 }}
+            
       - name: Deploy to S3
         uses: jakejarvis/s3-sync-action@master
         with:

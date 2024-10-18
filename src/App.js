@@ -1,11 +1,17 @@
 import React from 'react'
+const REACT_APP_TEST = process.env.REACT_APP_TEST;
 
 const App = () => {
+
+  console.log('All env variables:', process.env);
+
+  
   return (
     <div>
       App After one testing work changes change adasd
       <p>after change bucket policy like dev-community 16 oc 1:04 pm</p>
       <p>after change bucket policy like dev-community 18 oc 2:20 pm</p>
+      <p>ENV test {REACT_APP_TEST}</p>
 
     </div>
 

@@ -45,7 +45,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "CI=false react-scripts build",
+    "build": "react-scripts build",
     "deploy": "aws s3 sync build/ s3://indoor.fieldr.lk --acl public-read",
     "aws-cloudfront-update": "aws cloudfront create-invalidation --distribution-id E11G62ZMS3P5R0 --paths \"/*\"",
     "test": "react-scripts test",

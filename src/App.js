@@ -12,6 +12,8 @@ const App = () => {
       <p>ENV test {process.env.REACT_APP_TEST}</p>
       <p>ENV test {process.env.REACT_APP_TEST2}</p>
 
+      <p>add .env varible name in github 18 oc 4:55 pm</p>
+
     </div>
 
   )

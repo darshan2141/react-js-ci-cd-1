@@ -1,0 +1,141 @@
+.profile-pic-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 16px;
+    position: relative;
+    width: fit-content;
+    margin-top: 10%;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+.profile-pic p{
+    display: flex;
+    font-size: 45px;
+    color:'var(--primary-color-600)';
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+.camera-icon {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+}
+.text-color {
+    color:'var(--primary-color-600)'
+}
+.top-space {
+    margin-top: 20%;
+}
+
+.card-padding{
+    margin: 0px;
+    padding-top: 5%;
+    padding-bottom: 0px;
+}
+.card-padding .card-content p{
+    padding: 0px;
+    margin: 0px;
+}   
+.player-card-details{
+    width: 100%;
+    margin: 0px;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-item {
+    width: 48%;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+}
+.div-profile{
+    padding: 5%;
+}
+.top-padding{
+    padding-top: 10%;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+  }
+  
+  .modal-content {
+      height: 100%;
+      width: 100%;
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      overflow-y: scroll;
+      padding-bottom: 150px;
+  }
+  .create-new-team-card{
+    flex: 1;
+    width: 100%;
+  }
+  /* .create-new-team-card{
+    display: "flex";
+    margin: 0px;
+    padding: 0px;
+    flex-direction: "row";
+    justify-content: "center";
+    align-items: "flex-start";
+  } */
+  .create-new-team-card p{
+    padding: 5px;
+    margin: 0px;
+    text-align: left;
+    font-size: 14px;
+    /* color: #005500; */
+    font-family: 'DM Sans', sans-serif;
+    color: "var(--primary-color-700)";
+  }
+  .create-new-team-card .p1{
+    padding: 5px;
+    margin: 0px;
+    margin-bottom: 5px;
+    text-align: left;
+    font-size: 12px;
+    font-family: 'DM Sans', sans-serif;
+    color: "var(--primary-color-700)";
+  }
+  .create-new-team-card img{
+    width: 60px;
+    height: 60px;
+
+  }
+  .abcd{
+    z-index: 999;
+  }
+  .padding-scroll-bottom{
+    padding-bottom: 150px;
+  }

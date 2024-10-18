@@ -1,0 +1,29 @@
+.four-grid {
+  display: grid;
+  grid-gap: 1rem;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .four-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .four-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .four-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .four-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

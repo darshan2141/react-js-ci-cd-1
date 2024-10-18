@@ -1,0 +1,17 @@
+.sheet-header-text {
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  color: var(--primary-color-700);
+}
+
+.sheet-description-text {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  color: var(--primary-color-700);
+}

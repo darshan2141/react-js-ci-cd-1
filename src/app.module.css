@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+/* src/App.css */
+body {
+  font-family: 'DM Sans', sans-serif;
+}
+
+input, h1, p, textarea, select {
+  font-family: 'DM Sans', sans-serif;
+}
+
+/* Apply to Material-UI TextField inputs */
+.MuiInputBase-input {
+  font-family: 'DM Sans', sans-serif;
+}
+
+@media (max-width: 770px) {
+  .container {
+    margin: 0 10%;
+  }
+
+  .image {
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 770px) {
+  .container {
+    margin: 0 10%;
+  }
+
+  .image {
+    width: 100%;
+  }
+}
+.main-tab{
+  /* display: flex !important; */
+  position: relative;
+  
+}

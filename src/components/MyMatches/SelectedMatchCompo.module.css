@@ -1,0 +1,116 @@
+.mainCT {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.container2 {
+    background: #2549720D;
+    border-radius: 20px;
+    padding: 10px 15px;
+    box-shadow: 0px 4px 10px 0px #25497240;
+}
+
+
+.container2CP1,
+.container2CD2P1 {
+    margin: 0;
+    background: #EDE8EC;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.container2CD2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.container2CD2:last-child {
+    margin-bottom: 0px;
+}
+
+.container2CP1,
+.container2CD2P1 {
+    font-size: 16px;
+    padding: 3px 10px;
+    max-width: fit-content;
+    margin-bottom: 10px;
+    color: var(--netural-color-900);
+}
+
+.container2CD2P1 {
+    box-shadow: none;
+    font-size: 14px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+    color: #1D1B20;
+}
+
+.container2CD2CD2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.last5WBtns {
+    height: 30px;
+    width: 30px;
+    background: #84FFAE;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.last5WBtnsLoss {
+    background: #FF6961;
+}
+
+.AdContainer {
+    height: 100px;
+    background: linear-gradient(0deg, rgba(238, 240, 255, 0.29), rgba(238, 240, 255, 0.29));
+    border-radius: 20px;
+}
+
+
+.playerMainContainer {
+    background: #1940550D;
+    padding: 1.25rem;
+    border-radius: 20px;
+    margin-bottom: 70px;
+}
+
+.teamNameContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.teamNameBtn {
+    border: none;
+    color: #494BAD;
+    background: none;
+    font-size: 1.1rem;
+    border-bottom: 2px solid #494BAD;
+    border-radius: 15px;
+    padding: 8px 10px;
+    flex: 1;
+    transition: all ease-in-out 0.5s;
+}
+
+.teamNameBtn.active {
+    background: #494BAD;
+    color: #F0EDF1;
+}
+
+.playerListContainer{
+    margin-top: 20px;
+}

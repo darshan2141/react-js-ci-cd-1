@@ -1,0 +1,362 @@
+.scoresheetMainContainer {
+    height: calc(100vh - 56px);
+    margin-top: 56px;
+    gap: 0px;
+}
+
+.scrshtcntr1 {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    text-align: center;
+    background: #1940550D;
+    padding: 5px 0px 0px 0px;
+}
+
+
+.scrshtcntr1>.overContainer>p {
+    margin: 0;
+}
+
+.scrshtcntr1>.overContainer>p:nth-child(1) {
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.scrshtcntr1>.overContainer>p:nth-child(2),
+.scrshtcntr1>.overContainer>p:last-child {
+    font-size: 28px;
+}
+
+.scrshtcntr1>.overContainer>p:nth-child(3) {
+    font-size: 16px;
+    font-weight: 500;
+    color: #6F6C6F;
+}
+
+.scrshtcntr1>.overContainer>hr:nth-child(4) {
+    width: 60%;
+}
+
+.scrshtcntr1>.overContainer>p:nth-child(5) {
+    font-size: 16px;
+    font-weight: 600;
+    color: #6F6C6F;
+}
+
+
+/* batsmanContainer */
+.batsmanContainer {
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+
+.batsManCard {
+    background: #D9D9D9;
+    display: flex;
+    flex-direction: column;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.2rem;
+}
+
+.batsManCard.play {
+    background: #254972;
+}
+
+.batsManCard>div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.batsManCard>div>p {
+    margin: 0;
+    color: #fff;
+}
+
+.batsManCard>div:nth-child(1)>p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.batsManCard>div:nth-child(1)>p>span {
+    font-size: 15px;
+}
+
+
+.batsmanBtnContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.batsmanBtnContainer button {
+    background: var(--card-1-bg);
+    border: none;
+    color: #6F6C6F;
+    font-size: 15px;
+    padding: 8px 5px;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    justify-content: center;
+}
+
+/* ball container */
+.scrshtcntr2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0 18px 0;
+}
+
+.ball {
+    height: 30px;
+    width: 30px;
+    background: #34A853;
+    border-radius: 50%;
+    font-size: 18px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    position: relative;
+}
+
+.ball.run {
+    background: #194055;
+}
+
+.ball.run0 {
+    background: #FFADAD;
+}
+
+.ball.run1 {
+    background: #2E8DFF;
+}
+
+.ball.run2 {
+    background: #9BF6FF;
+}
+
+.ball.run3 {
+    background: #BDB2FF;
+}
+
+.ball.run4 {
+    background: #CAFFBF;
+}
+
+.ball.run6 {
+    background: #9747FF;
+}
+
+.ball.wicket {
+    background: #C80000;
+}
+
+.ball.noball {
+    background: #194055;
+    font-size: 11px;
+    font-weight: 400;
+    word-break: break-all;
+    text-align: center;
+}
+
+.ball.wideball {
+    background: #194055;
+    font-size: 11px;
+    font-weight: 400;
+    word-break: break-all;
+    text-align: center;
+}
+
+.ball.freeHit::after {
+    content: 'Free Hit';
+    position: absolute;
+    top: 100%;
+    height: 100%;
+    width: auto;
+    font-size: 10px;
+    color: #C80000;
+}
+
+/* bowler conatiner */
+.scrshtcntr3 {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 50% 50%;
+    padding: 10px;
+}
+
+.bowlerCard {
+    background: #63A2C8;
+    display: flex;
+    align-items: center;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.2rem;
+    justify-content: space-between;
+}
+
+.bowlerCard>div>p {
+    margin: 0;
+}
+
+.bowlerCard>div {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.bowlerCard>div:nth-child(1)>p {
+    font-size: 15px;
+}
+
+.bowlerCard>div:nth-child(2) {
+    align-items: center;
+}
+
+.bowlerCard>div:nth-child(2)>p:nth-child(1) {
+    font-size: 15px;
+}
+
+.scrshtcntr3>button {
+    margin: 0 0 0 10px;
+    background: var(--card-1-bg);
+    border: none;
+    color: #6F6C6F;
+    font-size: 15px;
+    padding: 8px 3px;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    justify-content: center;
+}
+
+/* need run container */
+
+.scrshtcntr4 {
+    background: #D9D9D9;
+    padding: 5px 10px;
+}
+
+.scrshtcntr4 p {
+    margin: 0;
+}
+
+.firstBattingTeamsConatiner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.firstBattingTeamsConatiner>div:nth-child(1) {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.firstBattingTeamsConatiner>div:nth-child(2) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.firstBattingTeamsConatiner>div:nth-child(1)>p:nth-child(2) {
+    font-size: 24px;
+}
+
+.firstBattingTeamsConatiner>div:nth-child(2)>p {
+    background: #fff;
+    font-size: 15px;
+    padding: 5px;
+    line-height: 20px;
+    border-radius: 3px;
+    color: #6F6C6F;
+}
+
+.firstBattingTeamsConatiner>div:nth-child(2)>p>span {
+    font-weight: 700;
+    color: #000;
+}
+
+.scrshtcntr4>p:last-child {
+    margin-left: 30px;
+    font-size: 18px;
+}
+
+/* Scoring Div */
+
+.scrshtcntr5 {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 0 -4px 6px -2px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    padding: 10px 5px;
+}
+
+.cntr5BtnsDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.cntr5DigitDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0 18px 0;
+    flex-wrap: wrap;
+}
+
+.cntr5Digit {
+    background-color: #194055;
+    /* padding: 20px 50px; */
+    font-size: 40px;
+    font-weight: 900;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+}
+
+.cntr5LowerRow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.cntr5LowerDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cntr5Lower1Div {
+    background-color: #EFF8FF;
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: DM Sans;
+    font-size: 32px;
+    font-weight: 400;
+    width: 52px;
+    height: 52px;
+    line-height: 34px;
+}
+
+.darkbold {
+    font-weight: 900;
+}

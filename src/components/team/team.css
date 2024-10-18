@@ -1,0 +1,74 @@
+.profile-pic-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 16px;
+    position: relative;
+    width: fit-content;
+    margin-top: 10%;
+}
+
+.profile-pic {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: contain;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+.profile-pic p{
+    display: flex;
+    font-size: 45px;
+    color:'var(--primary-color-600)';
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+.camera-icon {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+}
+.text-color {
+    color:'var(--primary-color-600)'
+}
+.top-space {
+    margin-top: 20%;
+}
+
+.card-padding{
+    margin: 0px;
+    padding-top: 5%;
+    padding-bottom: 0px;
+}
+.card-padding .card-content p{
+    padding: 0px;
+    margin: 0px;
+}   
+.player-card-details{
+    width: 100%;
+    margin: 0px;
+    /* padding-right: 5%;
+    padding-left: 5%; */
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-item {
+    width: 48%;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+}
+.div-profile{
+    padding: 5%;
+}

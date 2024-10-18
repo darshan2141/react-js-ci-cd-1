@@ -1,0 +1,45 @@
+.tossWonByContainer {
+    background: #2549720D;
+    padding: 6px 8px;
+    border-radius: 10px;
+}
+
+.tossWonByTitle {
+    background: #EDE8EC;
+    box-shadow: 0px 2px 2px 0px #494BAD40;
+    max-width: fit-content;
+    margin: 0;
+    color: #494BAD;
+    font-size: 1rem;
+    padding: 2px 5px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.teamDetailsContainer>div:last-child>div {
+    padding-bottom: 0;
+}
+
+.AdContainer {
+    height: 100px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    border-radius: 10px;
+    display: grid;
+    place-items: center;
+}
+
+.batFieldBtns {
+    gap: 10px;
+    border-radius: 10px;
+    border: 1px solid #494BAD;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #494BAD;
+    padding: 10px;
+}
+
+.batFieldBtns.active {
+    background: #494BAD;
+    color: #fff;
+}

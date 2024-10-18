@@ -1,0 +1,375 @@
+.primary-btn {
+  background-color: var(--netural-color-900) !important;
+  color: white !important;
+  font-family: "DM Sans", sans-serif !important;
+  width: 100%;
+}
+
+.primary-btn:disabled {
+  background-color: #f0edf1 !important;
+  color: #bdbabd !important;
+}
+
+.light-btn {
+  background-color: var(--primary-color-400) !important;
+  color: var(--fill-black-color) !important;
+}
+
+.primary-hollow-btn {
+  color: var(--primary-color-600) !important;
+  border-color: var(--primary-color-600) !important;
+  font-family: "DM Sans", sans-serif !important;
+  background: white;
+}
+
+.delete-btn {
+  background-color: var(--error-color) !important;
+  color: var(--primary-color-white) !important;
+  border-color: var(--error-color) !important;
+}
+
+.cancel-btn {
+  color: var(--error-color) !important;
+  border-color: var(--error-color) !important;
+  font-size: 14px !important;
+}
+
+.MuiTextField-root {
+  /* box-shadow: var(--main-box-shadow); */
+  border-radius: 5px !important;
+  font-family: "DM Sans", sans-serif !important;
+}
+
+.MuiOutlinedInput-input {
+  font-family: "DM Sans", sans-serif !important;
+}
+
+.MuiTypography-body1 {
+  font-family: "DM Sans", sans-serif !important;
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border-color: var(--primary-color-500) !important;
+  border-radius: 5px !important;
+}
+
+.MuiInputBase-input {
+  font-family: "DM Sans", sans-serif !important;
+  font-size: 16px !important;
+}
+
+.MuiFormLabel-root {
+  color: var(--primary-color-700) !important;
+  font-family: "DM Sans", sans-serif !important;
+}
+
+.MuiSelect-icon {
+  color: var(--primary-color-600) !important;
+  font-family: "DM Sans", sans-serif !important;
+}
+
+.MuiSelect-select {
+  font-family: "DM Sans", sans-serif !important;
+}
+
+button.tab {
+  background: white !important;
+  color: var(--netural-color-900);
+  border: 1px solid;
+  font-family: "DM Sans", sans-serif;
+  text-transform: capitalize;
+}
+
+button.active-tab {
+  background: var(--netural-color-900) !important;
+  color: white;
+  font-family: "DM Sans", sans-serif !important;
+  text-transform: capitalize;
+}
+
+.MuiRadio-root {
+  color: var(--primary-color-600) !important;
+  font-family: "DM Sans", sans-serif !important;
+}
+
+.MUIDataTableBodyCell-root-781 {
+  text-align: "center";
+}
+
+.customSmallButton {
+  border: none !important;
+  font-size: 13px !important;
+  font-weight: 400 !important;
+  text-transform: capitalize !important;
+  font-family: "DM Sans", "sans-serif" !important;
+  padding: 4px 15px !important;
+  cursor: pointer;
+}
+
+/* CustomOtpInput.css */
+.otp-input-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.otp-input {
+  width: 40px;
+  height: 40px;
+  margin: 0 5px;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+/* CustomMobileInput.css */
+.custom-mobile-input-container {
+  display: flex;
+  background-color: var(--placeholder-bg);
+  flex-direction: column;
+  /* margin-bottom: 1rem; */
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+.custom-mobile-input-label {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.custom-phone-input .form-control {
+  height: auto !important;
+  padding: 0 10px;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.23);
+  border-radius: 4px;
+  color: rgba(0, 0, 0, 0.87);
+  display: inline-flex;
+  align-items: center;
+  width: 100% !important;
+  padding-left: 55px !important;
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+  font-size: 16px;
+  background-color: var(--placeholder-bg) !important;
+}
+
+.custom-phone-input .form-control:focus {
+  border-color: #e4e4e4;
+  background-color: var(--placeholder-bg);
+  box-shadow: 0 0 0 2px rgba(127, 127, 128, 0.2);
+}
+
+.custom-phone-input .flag-dropdown {
+  /* height: 40px; */
+  border: none;
+  background: none;
+  padding: 5px !important;
+}
+
+.custom-phone-input .flag-dropdown .selected-flag {
+  display: flex;
+  align-items: center;
+}
+
+.custom-phone-input .flag-dropdown .selected-flag .flag {
+  margin-right: 8px;
+}
+
+/* CustomMUI.css */
+
+.container {
+  padding: 16px;
+  position: relative;
+}
+
+/* TODO: Remove this check flex-between class */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* TODO: Remove this check the new reusable bottom sheet  */
+.close-icon {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+}
+
+/* TODO: Remove this check mt-15 & text-center classes */
+.content {
+  text-align: center;
+  margin-top: 16px;
+}
+
+/* TODO: Remove this check the new reusable bottom drawer component  */
+.sheet-header-text {
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  color: var(--primary-color-700);
+}
+
+/* TODO: Remove this check the new reusable bottom drawer component  */
+.sheet-description-text {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  color: var(--primary-color-700);
+}
+
+.button-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.card-details {
+  width: 65%;
+  border-bottom: 1px solid black;
+}
+
+/* MatchCard Compoent CSS Start */
+
+.matches-card {
+  padding: 10px;
+  border-radius: 10px;
+  background: #2549720D;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 4px 10px 0px #25497240;
+}
+
+.dateTeamStatusContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.dateTeamStatusContainer> :nth-child(1) {
+  text-align: start;
+  width: 25%;
+}
+
+.dateTeamStatusContainer> :nth-child(1)>button {
+  text-wrap: nowrap;
+}
+
+.dateTeamStatusContainer> :nth-child(2) {
+  width: 50%;
+}
+
+.dateTeamStatusContainer> :nth-child(3) {
+  text-align: end;
+  width: 25%;
+}
+
+.noOfmatchGroundTournamentNameConatiner {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 6px;
+  row-gap: 10px;
+  margin: 10px 0;
+}
+
+.noOfmatchGroundTournamentNameConatiner>p,
+.teamsNameScoreContainer>div>p:nth-child(1) {
+  margin: 0;
+  background: #EDE8EC;
+  color: #1D1B20;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.teamsNameScoreContainer>div>p:nth-child(1) {
+  max-width: 50%;
+}
+
+.teamsNameScoreContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.teamsNameScoreContainer>div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.teamsNameScoreContainer>div>p {
+  margin: 0;
+}
+
+.teamsNameScoreContainer>div>p>span {
+  display: inline-block;
+  background: #CAFFBF;
+  width: 70px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.teamsNameScoreContainer>div:nth-child(2)>p>span {
+  display: inline-block;
+  background: #FFADAD;
+  width: 70px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.matchCardBtnContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.matchCardBtnContainer>button {
+  border: 1px solid var(--netural-color-900);
+  background: none;
+  font-size: 14px;
+  font-family: 'DM Sans', sans-serif;
+  padding: 5px 10px;
+  border-radius: 10px;
+  background: var(--netural-color-900);
+  color: #fff;
+}
+
+.matchCardBtnContainer>button[data-content="share"] {
+  color: var(--netural-color-900);
+  background: none;
+}
+
+/* MatchCard Compoent CSS End */
+
+.icon-pic-container {
+  display: flex;
+  position: relative;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.icon-pic {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  object-fit: cover;
+  /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); */
+}

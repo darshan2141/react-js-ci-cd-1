@@ -91,8 +91,8 @@ export function uploadToS3(file, type) {
     :
     Date.now().toString() + "." + file.name.split(".").pop();
 
-  const S3_BUCKET = process.env.REACT_APP_S3_BUCKET_NAME;
-  const REGION = process.env.REACT_APP_AWS_REGION;
+  const S3_BUCKET = process.env.REACT_APP_S3_BUCKET_NAME_FOR_MEDIA;
+  const REGION = process.env.REACT_APP_AWS_REGION_FOR_MEDIA;
 
   AWS.config.update({
     accessKeyId: process.env.REACT_APP_AWS_ACCESS_KEY_ID,

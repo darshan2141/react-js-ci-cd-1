@@ -26,7 +26,13 @@ jobs:
         env:
           REACT_APP_TEST: ${{ secrets.REACT_APP_TEST }}
           REACT_APP_TEST2: ${{ secrets.REACT_APP_TEST2 }}
-            
+          REACT_APP_GOOGLE_CLIENT_ID : ${{ secrets.REACT_APP_GOOGLE_CLIENT_ID }}
+          REACT_APP_S3_BUCKET_NAME_FOR_MEDIA : ${{ secrets.REACT_APP_S3_BUCKET_NAME_FOR_MEDIA }}
+          REACT_APP_AWS_REGION : ${{ secrets.REACT_APP_AWS_REGION }}
+          REACT_APP_AWS_ACCESS_KEY_ID : ${{ secrets.REACT_APP_AWS_ACCESS_KEY_ID }}
+          REACT_APP_AWS_SECRET_ACCESS_KEY : ${{ secrets.REACT_APP_AWS_SECRET_ACCESS_KEY }}
+
+
       - name: Deploy to S3
         uses: jakejarvis/s3-sync-action@master
         with:
